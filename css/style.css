@@ -1,0 +1,17 @@
+h1{
+    background-color: green;
+    color: #fff;
+    text-align: center;
+}
+.nav{
+    background-color: blueviolet; 
+    color: #fff;
+}
+.nav li{
+    list-style-type: square;
+    display: inline;
+}
+.nav li a{
+    color: #fff;
+    text-decoration: none;
+}
