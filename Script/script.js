@@ -20,10 +20,10 @@ console.log(Interest);
 // If hour is between 6am and 12pm: Good morning
 // If its between 12pm and 6pm:Good evening
 
-let hour = 24;
+let hour = 14;
 if (hour >= 6 && hour < 12)
   console.log('Good morning');
 else if(hour >= 12 && hour < 18)
   console.log('Good afternoon');
 else
-  console.log('Good evening');  
+  console.log('Good evening');

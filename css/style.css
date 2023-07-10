@@ -25,3 +25,31 @@ h1{
     list-style-type: upper-roman;
 }
 
+table{
+    width: 100%;
+}
+
+table, table th, table tr, table td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.tablet2{
+    background-color: red;
+}
+.tb02 tr td img{
+    width: 30%;
+    height: 30px;
+}
+.tb02 tr td{
+    text-align: center;
+}
+.tb02 a{
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+}
+.rw01{
+    background-color: aqua;
+    color: white;
+}
