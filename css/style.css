@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 h1{
     background-color: green;
     color: #fff;
@@ -47,9 +51,58 @@ table, table th, table tr, table td{
 .tb02 a{
     text-decoration: none;
     cursor: pointer;
-    color: red;
+    color: blue;
+}
+.tb02 tr td a:hover{
+    color: aqua;
+    font-size: 20px;
 }
 .rw01{
     background-color: aqua;
     color: white;
+}
+
+.iframe{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.to-top{
+ text-align: right;
+}
+.to-top a{
+   border: dashed 2px black;
+    border-radius: 100%;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #0000ff;
+    color: #fff;
+}
+.to-top a:hover{
+color: #00ffff;
+font-size: 10px;
+}
+.form{
+    margin-bottom: 10px;
+}
+.form div{
+    margin-bottom: 10px;
+}
+.form div input{
+    padding: 5px 15px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: 2px solid #000;
+}
+.form div select{
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #000;
 }

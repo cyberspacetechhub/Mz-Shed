@@ -45,13 +45,6 @@ let firstName = "Shedrach"
 let lastName = "mkpuma"
 console.log(`The full name is ${firstName} ${lastName}`)
 
-let cat1 = 20
-let cat2 = 10
-let exam = 50
-let totalScore = cat1 + cat2 + exam;
-
-console.log(`The totalScore is ${totalScore}`)
-
 let news = ' The BURNING MAN is a festival in America '
 console.log(`This is for non trim ${(news)}`)
 console.log(`This is for trim ${news.trim()}`)
@@ -66,3 +59,31 @@ console.log(`This is for toUpperCase ${news.toUpperCase(news)}`)
 console.log(`This is for toLowerCase ${news.toLowerCase(news)}`)
 
 console.log(`This is for slice ${news.slice(22,31)}`)
+
+let cat1 = Number(prompt('enter cat 1'));
+let cat2 = Number(prompt('enter cat 2'));
+let exam = Number(prompt('enter exam'));
+let totalScore = cat1 + cat2 + exam;
+let grade = 'F'
+
+console.log(`The value of total score of ${firstName} is ${totalScore}`)
+
+if(totalScore >= 70){
+grade = 'A'
+  console.log(`${firstName} passed the exam and the grade is ${grade}`)
+}
+else if(totalScore >= 60){
+  grade = 'B'
+console.log(`${firstName} passed the exam and the grade is ${grade}`)
+}
+else if(totalScore >= 50){
+  grade = 'C'
+  console.log(`${firstName} passed the exam and the grade is ${grade}`)
+}
+else if(totalScore >= 40){
+  grade = 'D'
+  console.log(`${firstName} passed the exam and the grade is ${grade}`)
+}
+else{
+  console.log(`${firstName} failed the exam and the grade is ${grade}`)
+}
