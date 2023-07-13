@@ -69,21 +69,86 @@ let grade = 'F'
 console.log(`The value of total score of ${firstName} is ${totalScore}`)
 
 if(totalScore >= 70){
-grade = 'A'
+  grade = 'A'
   console.log(`${firstName} passed the exam and the grade is ${grade}`)
-}
-else if(totalScore >= 60){
+
+}else if(totalScore >= 60){
   grade = 'B'
-console.log(`${firstName} passed the exam and the grade is ${grade}`)
-}
-else if(totalScore >= 50){
+  console.log(`${firstName} passed the exam and the grade is ${grade}`)
+
+}else if(totalScore >= 50){
   grade = 'C'
   console.log(`${firstName} passed the exam and the grade is ${grade}`)
-}
-else if(totalScore >= 40){
+
+}else if(totalScore >= 40){
   grade = 'D'
   console.log(`${firstName} passed the exam and the grade is ${grade}`)
-}
-else{
+
+}else{
   console.log(`${firstName} failed the exam and the grade is ${grade}`)
 }
+
+let username = prompt('enter username')
+let password = prompt('enter password')
+
+if(username === 'admin'){
+
+  if(password === 1234){
+    console.log(`login successful`)
+  }else{
+    console.log(`Incorrect password`)
+  }
+
+}else{
+  console.log(`Incorrect username`)
+}
+
+let phone1 = Number(prompt('enter phone1'))
+let phone2 = Number(prompt('enter phone2'))
+let phone3 = Number(prompt('enter phone3'))
+
+
+if(phone1 > phone2){
+
+  if(phone1 > phone3){
+
+  console.log(`phone1 is the biggest`);
+  }else{
+
+      console.log(`number3 is the biggest`)
+  }
+
+}else if(phone2 > phone3){
+
+  console.log(`phone2 is the biggest`)
+}else{
+
+  console.log(`phone3 is the biggest`);
+}
+
+const house = ["Bugalow", "Duplex", "Complex"];
+console.log(house.length);
+
+const bulbs = ["white", "yellow"];
+console.log(bulbs.length);
+
+const food1 = ["Rice", "Garri", "Wheat"];
+console.log(food1.length);
+
+const food2 = new Array("Beans", "Semo");
+console.log(food2.length);
+
+const food3 = "Yam, Potatoes, Eba, Plantain".split(", ");
+console.log(food3.length);
+
+console.log(food3.indexOf("Yam"))
+
+const food1string = food1.join(", ")
+console.log(food1string)
+
+const newLength = food2.push("Amala");
+console.log(food2);
+
+const removedItem = food1.pop();
+console.log(food1);
+console.log(removedItem)

@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML class, web development class, HTML begineer class">
+    <meta name="author" content="Mz Shed">
+    <meta name="description" content="web development class, HTML begineer class">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,6 +15,7 @@
        <li> <a href="contact.html">Contact</a></li>
        <li> <a href="intro.html">About Us</a></li>
        <li> <a href="service.html">Service</a></li>
+       <li><a href="post.html">Posts</a></li>
     </ul>
     <h1>This Is My Work</h1>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, 
@@ -165,7 +169,13 @@
     </div>
   
     <div class="form">
+        <h1 style="width: 50%;">Sign Up</h1>
+        <p>Fill in the form to create your account</p>
         <form action="register.html" method="post">
+            <div>
+                <label for="username"> User Name:</label>
+                <input type="text" placeholder="User Name">
+            </div>
             <div>
                 <label for="Firstname">First Name:</label>
                 <input type="text" placeholder="First Name">
@@ -187,6 +197,10 @@
                 <input type="date" placeholder="Date Of Birth">
             </div>
             <div>
+                <label for="country">Country:</label>
+                <input type="country" placeholder="">
+            </div>
+            <div>
                 <label for="gender">Gender</label>
                 <input type="radio" placeholder="Male" name="gender"> Male
                 <input type="radio" placeholder="Female" name="gender"> Female
@@ -195,25 +209,23 @@
                 <label for="skill">Skills:</label>
             <div>
                 HTML<input type="checkbox" placeholder="HTML">
-            </div>
-            <div>
                 CSS<input type="checkbox" placeholder="CSS">
             </div>
             <div>
                 Javascript<input type="checkbox" placeholder="js">
-            </div>
-            <div>
                 Java<input type="checkbox" placeholder="Java">
             </div>
             <div>
                 C#<input type="checkbox" placeholder="C#">
-            </div>
-            <div>
                 C++<input type="checkbox" placeholder="C++">
             </div>
             <div>
                 <label for="pass">Password:</label>
-                <input type="password" name="" id=""placeholder>
+                <input type="password" name="Password" id="" placeholder="">
+            </div>
+            <div>
+                <label for="repeatpass">Repeat Password:</label>
+                <input type="password" name="" id="" placeholder="">
             </div>
             <div>
                 <label for="spec">Specialization</label>
@@ -230,6 +242,14 @@
             <input type="file" name="" id="" placeholder="profile picture" accept="image/*">
         </div>
         <div>
+            <input type="checkbox" placeholder="remember me">Remember me
+        </div>
+        <div>
+            <p>By creating account you have agreed to our user
+                <a href="#" style="color: dodgerblue;">terms & agreement</a>
+            </p>
+        </div>
+        <div>
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
         </div>
@@ -239,5 +259,7 @@
     <div class="to-top">
         <a type="button" href="#top">To top</a>
     </div>
+
+
 </body>
 </html>

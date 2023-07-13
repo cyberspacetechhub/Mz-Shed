@@ -83,26 +83,30 @@ color: #00ffff;
 font-size: 10px;
 }
 .form{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .form div{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .form div input{
-    padding: 5px 15px;
-    font-size: 40px;
+    padding: 5px 10px;
+    font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    border-top: none;
    border-left: none;
    border-right: none;
-   border-bottom: 2px solid #000;
+   border-bottom: 0.5px solid #000;
 }
 .form div select{
-    padding: 10px;
-    font-size: 30px;
+    padding: 5px;
+    font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-top: none;
     border-right: none;
     border-left: none;
-    border-bottom: 2px solid #000;
+    border-bottom: 0.5px solid #000;
+}
+
+.fieldset{
+    margin: 20px;
 }
