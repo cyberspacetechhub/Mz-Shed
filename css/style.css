@@ -110,3 +110,66 @@ font-size: 10px;
 .fieldset{
     margin: 20px;
 }
+.signup h1{
+    color: blue;
+    border: 100%;
+    width: 50%;
+}
+.signup{
+    margin: 5px;
+}
+.signup div{
+    margin: 5px;
+}
+.signup div input{
+    padding: 5px 5px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.signup h1{
+    color: blue;
+    border: 100%;
+    width: 50%;
+}
+.signup{
+    margin: 5px;
+}
+.signup div{
+    margin: 5px;
+}
+.signup div input{
+    padding: 5px 5px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signin h1{
+    color: blue;
+    border: 100%;
+    width: 50%;
+}
+.signin{
+    margin: 5px;
+}
+.signin div{
+    margin: 5px;
+}
+.signin div input{
+    padding: 5px 5px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo div img{
+    width: 5%;
+    height: 50px;
+}
+.logo div span{
+    margin-bottom: 10px;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0000ff;
+    background-color: aliceblue;
+}
