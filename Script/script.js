@@ -94,9 +94,11 @@
 // if(username === 'admin'){
 
 //   if(password === 1234){
+//     //   console.log(`Incorrect password`)
+
+// }else{
 //     console.log(`login successful`)
-//   }else{
-//     console.log(`Incorrect password`)
+    
 //   }
 
 // }else{
@@ -212,38 +214,205 @@
 
 // console.log(Anthony[4][2])
 
-let count = 1;
+// let count = 1;
 
-while(count <= 10){
+// while(count <= 10){
 
-//     if(count%2 == 0){
+// //     if(count%2 == 0){
 
-// console.log(count)
-    // }
-    if(count%2 != 0){
-        console.log(count)
-    }
+// // console.log(count)
+//     // }
+//     if(count%2 != 0){
+//         console.log(count)
+//     }
 
-count++
-}
+// count++
+// }
 
-// let  = 0;
-for(count = 0; count < 10; count++) {
-    // console.log(i %2 !== 0)
-    // if(i %2 !== 0)
-    // console.log(i)
-    if(count %2 == 0){
-    console.log(count)
-    }
-}
 
-let x = 6;
-arr = [1, 2, 3, 4, 5, 6, 7, 8]
+// // let  = 0;
+// for(count = 0; count < 10; count++) {
+//     // console.log(i %2 !== 0)
+//     // if(i %2 !== 0)
+//     // console.log(i)
+//     if(count %2 == 0){
+//     console.log(count)
+//     }
+// }
 
-for (let index = 0; index < arr.length; index++) {
-    if (arr[index] == x) {
-        console.log(index);
-        break;
-    }
+// let s = 5;
+// arr = [9,8,7,6,5,4,3,2,1];
+
+// for(let index = 0; index < arr.length; index++){
+//     if(arr[index] == s) {
+//         console.log(index);
+//         break
+//     }
+// }
+
+// // let x = 6;
+// // arr = [1, 2, 3, 4, 5, 6, 7, 8]
+
+// // for (let index = 0; index < arr.length; index++) {
+// //     if (arr[index] == x) {
+// //         console.log(index);
+// //         break;
+// //     }
     
-}
+// // }
+
+
+// for(let i = 5; i <= 15; i++); {
+//     console.log(i)
+// }
+
+// for(let i = 70; i >= 20; i--); {
+//     if(i %2 != 0) {
+//         console.log(i)
+//     }
+// }
+
+// for(let i = 100; i <= 190; i++); {
+//     if(i %2 == 0) {
+//         console.log(i)
+//     }
+// }
+
+// const skills = ["css", "html", "js"]
+
+// for(let i = 0; i <= skills.length - 1; i++) {
+//     console.log(skills[i])
+// }
+const scores = [20, 16, 75, 35, 27, 48, 12, 10]
+
+// for(i = 0; i <= scores.length - 1; i++) {
+//     console.log(scores[i] * 10)
+// }
+
+// const skill = []
+
+// for( let i = 0; i <= 2; i++) {
+//   skill.push(prompt('enter skill'))
+// }
+// console.log(skill)
+// for( let i = 0; i <= skill.length - 1; i++){
+//     if(skill[i] == 'React'){
+//         console.log(`Advanced Developer`)
+//     }
+// }
+
+// let max = scores[0];
+// for (let i = 0; i <= scores.length; i++) {
+//     if (scores[i] > max) {
+//         max = scores[i];
+//     }
+// }
+// console.log(max);
+
+// let found = false;
+// for( let i = 0; i <= scores.length; i++) {
+//     if (scores[i] % 5 === 0 && scores[i] % 3 === 0) {
+//         console.log('fizz-buzz')
+//         found = true
+//     }
+//     if (scores[i] % 5 === 0) {
+//         console.log('buzz');
+//         found = true
+//     }
+//     if (scores[i] % 3 === 0) {
+//             console.log('fizz');
+//             found = true;
+//         }
+    
+    
+    
+// }
+
+// if(found = false){
+
+//     console.log("nothing ")
+
+// }
+
+// let r = 2;
+// const pi = 3.142;
+// let circumference = 2 * pi * r
+// console.log(circumference)
+
+// const pi = 3.142
+// let r = 4
+// let a = pi * r * r
+// console.log(a)
+
+// let cat1 = 9
+// let cat2 = 8
+// let exam = 30
+// let totalscore = cat1 + cat2 + exam;
+
+// if(totalscore >= 50) {
+//     console.log(`He passed the exam and the total score is ${totalscore}`)
+// }else if (totalscore < 50) {
+//     console.log(`He failed the exam and the total score is ${totalscore}`)
+// } else {
+    
+// }
+
+
+// let number1 = Number(prompt('enter number1'))
+// let number2 = Number(prompt('enter number2'))
+// let number3 = Number(prompt('enter number3'))
+
+// if (number1 > number2 && number1 > number3) {
+//     console.log(`number1 is the  biggest`);
+// }else if (number2 > number3 && number2 > number3) {
+//     console.log(`number2 is the biggest`);
+// } else {
+//     console.log(`number3 is the biggest`);
+// } {
+    
+// }
+
+// let English_score = Number(prompt('enter english score'))
+// let Math_score = Number(prompt('enter math score'))
+// let Civic_score = Number(prompt('enter civic score'))
+
+// if (English_score >= 50 || Math_score >= 50) {
+//     console.log("You're Promoted")
+// }else{
+//     console.log("Repeat class")
+// }
+
+let no1 = Number(prompt(`enter no1`))
+let no2 = Number(prompt(`enter no2`))
+let no3 = Number(prompt(`enter no3`))
+
+
+
+    if (no1 < no2 && no1 < no3) {
+        console.log(no1);
+        if (no2 < no3) {
+            console.log(no2);
+            console.log(no3);
+        } else {                  
+            console.log(no3);
+            console.log(no2);
+        }
+    } else if (no2 < no3 && no2 < no1) {
+        console.log(no2);
+        if (no3 < no1) {
+            console.log(no3);
+            console.log(no1);
+        } else {                  
+            console.log(no1);
+            console.log(no3);
+        }
+    } else {                 
+        console.log(no3);        
+        if (no1 < no2) {
+            console.log(no1);
+            console.log(no2);
+        } else {                  
+            console.log(no2);
+            console.log(no1);
+        }
+    }

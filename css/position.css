@@ -1,0 +1,63 @@
+.Container h1{
+    border: 2px solid #000;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 300%;
+    margin-top: 150px;
+}
+nav{
+    background-color: #00ffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.work img {
+    width: 100%;
+}
+.work {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .it1 {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 25px;
+    color: #00ffff;
+  }
+  .it2 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 25px;
+    color: #00ffff;
+  }
+  .it3 {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 25px;
+    color: #00ffff;
+  }
+  .it4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: #00ffff;
+  }
+  .it5 {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 25px;
+    color: #00ffff;
+  }
+  
