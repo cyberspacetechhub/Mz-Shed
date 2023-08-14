@@ -173,3 +173,19 @@ h3{
     color: #0000ff;
     background-color: aliceblue;
 }
+.mytable tr th td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 4px;
+    align-items: center;
+}
+/* li{
+    list-style-type: none;
+} */
+div{
+    margin-left: 25px;
+}
+ol div ol li{
+    list-style-type: upper-alpha;
+}
+

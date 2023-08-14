@@ -283,7 +283,7 @@
 // for(let i = 0; i <= skills.length - 1; i++) {
 //     console.log(skills[i])
 // }
-const scores = [20, 16, 75, 35, 27, 48, 12, 10]
+// const scores = [20, 16, 75, 35, 27, 48, 12, 10]
 
 // for(i = 0; i <= scores.length - 1; i++) {
 //     console.log(scores[i] * 10)
@@ -382,37 +382,311 @@ const scores = [20, 16, 75, 35, 27, 48, 12, 10]
 //     console.log("Repeat class")
 // }
 
-let no1 = Number(prompt(`enter no1`))
-let no2 = Number(prompt(`enter no2`))
-let no3 = Number(prompt(`enter no3`))
+// let no1 = Number(prompt(`enter no1`))
+// let no2 = Number(prompt(`enter no2`))
+// let no3 = Number(prompt(`enter no3`))
+
+// let position1, position2, position3;
+
+//     if (no1 < no2 && no1 < no3) {
+    //         position1 = no1;
+    //         if (no2 < no3) {
+        //             position2 = no2;
+        //             position3 = no3;
+        //         } else {                  
+//             position2 = no3;
+//             position3 = no2;
+//         }
+//     } else if (no2 < no3 && no2 < no1) {
+//         position1 = no2;
+//         if (no3 < no1) {
+//             position2 = no3;
+//             position3 = no1;
+//         } else {                  
+//             position2 = no1;
+//             position3 = no3;
+//         }
+//     } else {                 
+//        position1 = no3;        
+//         if (no1 < no2) {
+//             position2 = no1;
+//             position3 = no2;
+//         } else {                  
+//             position2 = no2;
+//             position3 = no1;
+//         }
+//     }
+    
+//     console.log(`${position1}, ${position2}, ${position3}`)
 
 
 
-    if (no1 < no2 && no1 < no3) {
-        console.log(no1);
-        if (no2 < no3) {
-            console.log(no2);
-            console.log(no3);
-        } else {                  
-            console.log(no3);
-            console.log(no2);
-        }
-    } else if (no2 < no3 && no2 < no1) {
-        console.log(no2);
-        if (no3 < no1) {
-            console.log(no3);
-            console.log(no1);
-        } else {                  
-            console.log(no1);
-            console.log(no3);
-        }
-    } else {                 
-        console.log(no3);        
-        if (no1 < no2) {
-            console.log(no1);
-            console.log(no2);
-        } else {                  
-            console.log(no2);
-            console.log(no1);
-        }
+// for (let i = 40; i >=  1; i--) {
+//     // console.log(i);
+//     if (i % 2 != 0) {
+//         console.log(i);
+//     }
+  
+// }
+// for (let i = 1; i <= 40; i++) {
+//     if (i % 2 == 0) {
+//         console.log(i);
+//     }
+    
+// }
+// for (let i = 100; i >= 0; i-= 10) {
+//     console.log(i);
+  
+// }
+
+const scores = [30,20,59,30,11,19,23,55]
+
+// let scores = Number(prompt(`enter no1`))
+let x = Number(prompt('enter scores'))
+let found = false;
+for (let i = 0; i <= scores.length; i++) {
+
+    if( x == scores[i]){
+
+    console.log(`${scores[i]} found`);
+    found = true
     }
+}
+if (found == false) {
+    
+    console.log(`Nothing was found`);
+}
+
+// switch (new Date().getDay()) {
+//     case 0:
+//       day = "Sunday";
+//       break;
+//     case 1:
+//       day = "Monday";
+//       break;
+//     case 2:
+//        day = "Tuesday";
+//       break;
+//     case 3:
+//       day = "Wednesday";
+//       break;
+//     case 4:
+//       day = "Thursday";
+//       break;
+//     case 5:
+//       day = "Friday";
+//       break;
+//     case 6:
+//       day = "Saturday";
+//   }
+
+
+// let duration = Number(prompt(`Enter total hours car packed`))
+// amount = 0
+// if (duration <= 5) {
+//     amount = duration
+// }else{
+//     let days = Math.trunc(duration / 24);
+//     let remaininghrs = (duration % 24);
+
+//     amount = (days * 15) + (remaininghrs * 0.5)
+// }
+
+// console.log(`The total amount to pay is $${amount}`);
+
+//     function greet(name) {
+//         console.log('Good Morning ' + name);
+//     }
+//     greet('Shedrach')
+
+//     const pi = 3.142
+
+//     function area(radius) {
+//         let area = pi * radius**2
+//         console.log(`The area of the circle with ${radius} is ${area}`);
+        
+//     }
+
+//     function circumference(radius) {
+//         let circumference = 2 * pi * radius
+//         console.log(`The circumference of the circle with ${radius} is ${circumference}`);
+        
+//     }
+
+//     area(10)
+//     area(12)
+
+//     circumference(10)
+//     circumference(12)
+
+//     let cat1 = Number(prompt(`enter cat1`))
+//     let cat2 = Number(prompt(`enter cat2`))
+//     let exam = Number(prompt(`enter exam`))
+//     // let totalScore = cat1 + cat2 + exam;
+    
+//     function totalScore(ca1, ca2, exm) {
+       
+//         let totalScore = ca1 + ca2 + exm
+//         return totalScore
+//     }
+//         let total = totalScore(cat1, )
+
+//     function grade(totalScore) {
+//         let grade = "F"
+
+//         if (totalScore >= 70) {
+//             grade = "A"
+//             console.log(`Passed and the grade is ${grade}`)
+//         }else if (totalScore >= 60) {
+//             grade = "B"
+//             console.log(`Passed and the grade is ${grade}`)
+//         } else if (totalScore >= 50){
+//             grade = "C"
+//             console.log(`Passed and the grade is ${grade}`)
+//         }else if (totalScore >= 40) {
+//             grade = "D"
+//             console.log(`Passed and the grade is ${grade}`)
+//         }else {
+//             console.log(`Failed and the grade is ${grade}`)
+//         }
+//     }
+//     grade()
+
+//     let P = Number(prompt('Enter Principal'))
+//     let R = Number(prompt('Enter Rate'))
+//     let T = Number(prompt('Enter Time'))
+
+//     function interest (p, r, t) {
+//         let Interest = p * r * t / 100
+//         return Interest;
+//     }
+//     let Interest = interest(P,R,T)
+//     console.log(Interest)
+
+//     scores = [20,18,30,70,40,50,65]
+//     target = Number(prompt('Enter Target'))
+//     function Search(scores, target) {
+    
+//         for (let i = 0; i < scores.length-1; i++) {
+//             if (target == scores[i]) {
+//                return `${target} was found`
+//             }
+            
+//         }
+//         return 'not found'
+        
+//     }
+//     let  result = Search(scores,target)
+//     console.log(result)
+
+//     function Multiply(scores) {
+        
+//         let newScores = [];
+//        for (let i = 0; i < scores.length; i++) {
+//         newScores.push(scores[i] * 10);
+        
+//        }
+//        return newScores
+//     }
+//     console.log(Multiply(scores))
+//     console.log(result)
+
+//     // toString
+//     //JavaScript automatically converts an array to a comma separated string when a primitive value is expected.
+//     scores.toString()
+//     console.log(scores)
+
+//     // Slice
+//     //The slice() method slices out a piece of an array into a new array.
+//     const score = scores.slice(1, 3)
+//     console.log(scores);
+//     console.log(score)
+
+//     // splice
+//     //The splice() method can be used to add new items to an array:
+//     //And it can be used to remove item from an array 
+//     scores.splice(0, 1, 80,90)
+//     console.log(scores)
+
+//     //flattening
+//     //Flattening an array is the process of reducing the dimensionality of an array.
+//     const newscore = scores.flat()
+//     console.log(newscore)
+
+//     //Merging (Concatenating) Arrays
+//     //The concat() method creates a new array by merging (concatenating) existing arrays:
+//     const boys = ['Joe', 'John', 'Monday']
+//     const girls = ['Tasha', 'Stella']
+
+//     const pupils = boys.concat(girls)
+//     console.log(pupils)
+
+//     //Sorting Array
+//     //The sort() method sorts an array alphabetically:
+//     const foods = ['Egg', 'Beans', 'Rice', 'Yam']
+//     foods.sort();
+//     console.log(foods)
+
+//     //Reversing an Array
+//     //The reverse() method reverses the elements in an array.
+//     foods.sort;
+//     foods.reverse();
+//     console.log(foods);
+
+
+//     //JavaScript Array forEach()
+//     //The forEach() method calls a function (a callback function) once for each array element.
+//     const numbers = [40, 30, 20, 60, 15]
+//     let txt = "solve this puzzle "
+//     numbers.forEach(myFunction);
+    
+//     function myFunction(value) {
+//         // txt += value ;
+//         console.log(txt + value);
+//     }
+//     console.log()
+
+//    //Numeric Sorting
+//     scores.sort(function(a, b){return a - b});
+//     console.log(scores)
+
+//     scores.sort(function(a, b){return b - a});
+//     console.log(scores)
+
+// //=> arrow functions
+//     const divisibleby10 = () =>{
+
+//     }
+
+// const paragraph = document.querySelector(".para")
+// paragraph.innerHTML = "<h3> List of names</h3>"
+
+// const ul = document.createElement("ul")
+// const li1 = document.createElement("li")
+
+// li1.innerText = "Shedrach"
+
+// const li2 = document.createElement("li")
+
+// li2.innerText = "Anthony"
+
+// const li3 = document.createElement("li")
+
+// li3.innerText = "Emmanuel"
+
+// ul.appendChild(li1)
+// ul.appendChild(li2)
+// ul.appendChild(li3)
+
+// paragraph.appendChild(ul)
+
+const para = document.querySelector(".parag")
+const names = ['Anthony', 'Emmanuel', 'Shedrach']
+const ul2 = document.createElement('ul')
+names.forEach((name) =>{
+    const li = document.createElement('li')
+    li.innerText = name
+
+    ul2.appendChild(li)
+})
+para.appendChild(ul2);
